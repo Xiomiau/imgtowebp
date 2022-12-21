@@ -1,0 +1,91 @@
+* {
+    
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+   display: grid;
+   place-content: center;
+   font-size: 20px;
+   margin: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw; 
+    height: fit-content;
+    padding: 20px;
+    background: #141414;
+}
+
+
+
+.btn-archivo{
+    background:#141414;
+    padding:10%;
+    border-radius:.5em;
+    border:2px dashed #323232;
+    width:fit-content;
+}
+::-webkit-file-upload-button {
+    background:#141414;
+    color:#f5f5f5;
+    border:1px solid #f5f5f5;
+    border-radius:.5em;
+    padding:2%;
+    font-size:100%;
+    cursor:pointer;
+}
+
+.btn-download {
+    background:#f4b6b6;
+    color:#080808;
+    /* border:1px solid #828282; */
+    border-radius:.5em;
+    /* font-size:100%; */
+    cursor:pointer;
+    margin-top: 15px;
+}
+
+::-webkit-file-upload-button:hover { 
+    background:#f5f5f5;
+    color:#141414;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+.text {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.text .p1 {
+    font-size: 18px;
+    width: 80%;
+}
+
+.text .p {
+    font-size: 12px;
+}
+
+
+.advertencia {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    line-height: 15px;
+}

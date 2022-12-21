@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="zegnio.svg">
+    <title>Convertir imagen | Zegnio</title>
+</head>
+<body>
+    
+   <main>
+
+    <img class="logo" src="/zegnio.svg" alt="">
+    <div class="text">
+        <h2>Subir imagen de producto</h2>
+        <p class="p1">Arrastra y suelta en el área punteada o busca en tus archivos</p>
+        <p class="p">Admite cualquier formato de imagen</p>
+    </div>
+    <input class="btn-archivo" id="inputImg" multiple type = "file" accept = "image/*" onchange = "handleUploadedFile(event)">
+    
+
+    <button class="btn-download">
+        <a download="" id="dw" href="">Descargar</a>
+    </button>
+
+    <p class="advertencia">* Las imágenes deben ser de la mayor calidad posible, y de preferencia medir entre 1000 y 1500px</p>
+
+   </main>
+
+
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
