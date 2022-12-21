@@ -28,7 +28,7 @@ const canvas = document.createElement("canvas");
          let input = document.getElementById("inputImg"); // Referencia al input desde donde se cargan las imagenes a convertir
          let fileName= input = input.files[0].name;
          downloadImg.href = convertedImg; // Asignación de la URL en el atributo href del elemento <a> para descargar el archivo
-         downloadImg.download ="holiwis" // Asignación del nombre al atributo download del elemento <a>  que tendra el archivo al ser descargado
+         downloadImg.download =fileName.replace(/\.(png|jpg|jpeg|gif)$/, ".webp"); // Asignación del nombre al atributo download del elemento <a>  que tendra el archivo al ser descargado
          
          imgToDownload.onload = ()=>{
            document.main.appendChild(imgToDownload); // Adjuntamos la imagen a el elemento main de nuestro html
