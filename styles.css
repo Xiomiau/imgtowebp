@@ -89,3 +89,16 @@ a {
     width: 60%;
     line-height: 15px;
 }
+
+#contenedor-imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+#contenedor-imagenes img{
+    width: 30%;
+    height: auto;
+}
